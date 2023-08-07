@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header Section Starts -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+        <span class="menu-icon" id="menu-icon" onclick="showMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </span>
+        <nav class="navbar" id="navbar">
+            <span class="menu-close-icon" id="menu-close-icon">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            </span>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skill</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <!-- Home Section Starts -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span class="title" id="typed"></span></h1>
+            <h3>Frontend Web developer.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima eos animi voluptatum nesciunt sint sed
+                exercitationem natus.</p>
+            <div class="btn-box">
+                <a href="#" class="btn">Hire</a>
+                <a href="#" class="btn">Let's Talk</a>
+            </div>
+        </div>
+        <div class="sci-icon">
+            <a href="#" style="--i:1"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" style="--i:2"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" style="--i:3"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" style="--i:4"><i class="fa-brands fa-square-whatsapp"></i></a>
+            <a href="#" style="--i:5"><i class="fa-brands fa-telegram"></i></a>
+        </div>
+    </section>
+
+
+    <!-- About section starts  -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="https://img.freepik.com/free-photo/cartoon-character-with-pan-pancake-her-head_1340-29122.jpg?size=626&ext=jpg&ga=GA1.2.1241457826.1690369388&semt=ais_ai_generated"
+                alt="" class="floatImg">
+            <span class="spin"></span>
+        </div>
+        <div class="about-content">
+            <h1 class="heading">About <span class="title">Me</span></h1>
+            <h3>Frontend Web Developer!</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nulla id magnam odio aut non pariatur
+                enim excepturi consequatur veritatis deserunt suscipit quos blanditiis, sit, nihil at praesentium
+                labore modi?
+            </p>
+            <div class="btn-box">
+                <a href="#" class="btn">Read More.</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- education section starts -->
+
+    <section class="education" id="education">
+        <h1 class="heading">My <span class="title">Journey</span></h1>
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="edu-title">Education</h3>
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class="fa-solid fa-calendar-days"></i> 2017 - 2018</div>
+                            <h3>Bachelor's Degree - University</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, est?</p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class="fa-solid fa-calendar-days"></i> 2018 - 2019</div>
+                            <h3>Bachelor's Degree - University</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, est?</p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class="fa-solid fa-calendar-days"></i> 2019 - 2020</div>
+                            <h3>Bachelor's Degree - University</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, est?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="education-column">
+                <h3 class="edu-title">Experience</h3>
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class="fa-solid fa-calendar-days"></i> 2017 - 2018</div>
+                            <h3>Web Developer - Company</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, est?</p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class="fa-solid fa-calendar-days"></i> 2018 - 2019</div>
+                            <h3>Web Developer - Company</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, est?</p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class="fa-solid fa-calendar-days"></i> 2019 - 2020</div>
+                            <h3>Web Developer - Company</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, est?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- skill Section Starts -->
+
+    <section class="skills" id="skills">
+        <h1 class="heading">My <span class="title">Skillls</span></h1>
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="skills-title">Coding Skills</h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML <span class="title">80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>CSS <span class="title">60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>JavaScript <span class="title">50%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>React <span class="title">50%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-column">
+                <h3 class="skills-title">Professtional Skills</h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Web Development <span class="title">60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Web Design <span class="title">50%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>SEO Marketing <span class="title">30%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1 class="heading">
+            Contact <span class="title">Me</span>
+        </h1>
+        <div class="container">
+            <div class="row">
+                <div class="left">
+                    <a><i class="fa-solid fa-envelope"></i> abc@gmail.com</a>
+                    <a><i class="fa-solid fa-phone"></i> +9188353664</a>
+                    <div class="cv-btn">
+                        <a href="#" class="btn"> Download CV</a>
+                    </div>
+                </div>
+                <div class="right">
+                    <form action="#">
+                        <input type="text" class="name" placeholder="Enter your name!" required>
+                        <input type="email" class="email" placeholder="Enter your Email!" required>
+                        <textarea name="message" id="message" rows="6"
+                            placeholder="Enter your message here!"></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p class="copyright">
+            Copyright © 2023-2024 Portfolio.inc. All rights reserved.
+        </p>
+        <div class="backToHome">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/41733e8cbb.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
