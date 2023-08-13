@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.image-slider {
+    width: 50%;
+    /* background-color: antiquewhite; */
+    position: relative;
+}
+
+
+.slide-container {
+    position: relative;
+    /* background-color: aqua; */
+    width: 100%;
+    border-radius: .6rem;
+    animation: anime 2s ease;
+}
+
+/* .slide-container{
+    display: none;
+} */
+
+img {
+    width: 100%;
+    height: 60%;
+    border-radius: .6rem;
+}
+
+.number-text {
+    position: absolute;
+    top: .2rem;
+    left: .4rem;
+    font-size: 1.5rem;
+    color: azure;
+}
+
+.caption-text {
+    position: absolute;
+    bottom: 0.5rem;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    color: azure;
+
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: white;
+    padding: .3rem .5rem;
+    border-radius: .3rem;
+    transition: .6s ease;
+    z-index: 1;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+}
+
+:is(.prev, .next):hover {
+    background-color: rgba(0, 0, 0, 0.59);
+}
+
+
+.nav{
+    width: 100%;
+    text-align: center;
+    margin-top: .5rem;
+}
+
+.dot{
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: .2rem solid black;
+    cursor: pointer;
+    transition: .6s ease;
+}
+
+.active,.dot:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+@keyframes anime {
+    from{
+        opacity: .5;
+        clip-path: circle(19.3% at 0 100%);
+    }
+    to{
+        opacity: 1;
+        clip-path: circle(141.4% at 0 100%);
+    }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Image Slider.</title>
+</head>
+
+<body>
+    <div class="image-slider">
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <div class="slide-container slide">
+            <div class="number-text">1/4</div>
+            <img src="https://source.unsplash.com/random/300x200">
+            <div class="caption-text">Hello</div>
+        </div>
+        <div class="slide-container slide">
+            <div class="number-text">2/4</div>
+            <img src="https://source.unsplash.com/random/300x200">
+            <div class="caption-text">Hello</div>
+        </div>
+        <div class="slide-container slide">
+            <div class="number-text">3/4</div>
+            <img src="https://source.unsplash.com/random/300x200">
+            <div class="caption-text">Hello</div>
+        </div>
+        <div class="slide-container slide">
+            <div class="number-text">4/4</div>
+            <img src="https://source.unsplash.com/random/300x200">
+            <div class="caption-text">Hello</div>
+        </div>
+        <div class="nav">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
