@@ -1,5 +1,5 @@
 # TAIRP
-Task Completed
-- Portfolio
-- Weather app
-- ImageSlider
+Tasks Completed 🚀
+- Portfolio 🏅
+- Weather app ☁️
+- ImageSlider 🏞️
